@@ -6,7 +6,7 @@
 
     <groupId>omics</groupId>
     <artifactId>omics</artifactId>
-    <version>1.4.0</version>
+    <version>1.5.0</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -164,6 +164,14 @@
             <url>https://github.com/jiaweiM</url>
         </developer>
     </developers>
+
+    <repositories>
+        <repository>
+            <id>aliyun</id>
+            <name>aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
 
     <distributionManagement>
         <repository>
