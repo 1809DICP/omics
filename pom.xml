@@ -6,7 +6,7 @@
 
     <groupId>omics</groupId>
     <artifactId>omics</artifactId>
-    <version>1.5.0</version>
+    <version>1.6.0</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -55,7 +55,7 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>28.2-jre</version>
+                <version>29.0-jre</version>
             </dependency>
             <dependency>
                 <groupId>it.unimi.dsi</groupId>
@@ -71,7 +71,7 @@
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-params</artifactId>
-                <version>5.6.0</version>
+                <version>5.6.2</version>
             </dependency>
             <dependency>
                 <groupId>org.mockito</groupId>
@@ -81,7 +81,7 @@
             <dependency>
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
-                <version>1.13</version>
+                <version>1.14</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.poi</groupId>
