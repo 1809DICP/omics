@@ -6,12 +6,12 @@
 
     <groupId>omics</groupId>
     <artifactId>omics</artifactId>
-    <version>1.8.0</version>
+    <version>1.9.0</version>
     <packaging>pom</packaging>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <skipTests>true</skipTests>
     </properties>
@@ -60,7 +60,7 @@
             <dependency>
                 <groupId>it.unimi.dsi</groupId>
                 <artifactId>fastutil</artifactId>
-                <version>8.4.0</version>
+                <version>8.4.1</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -76,7 +76,7 @@
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>3.4.6</version>
+                <version>3.5.7</version>
             </dependency>
             <dependency>
                 <groupId>commons-codec</groupId>
@@ -91,7 +91,7 @@
             <dependency>
                 <groupId>org.controlsfx</groupId>
                 <artifactId>controlsfx</artifactId>
-                <version>8.40.17</version>
+                <version>11.0.2</version>
             </dependency>
             <dependency>
                 <groupId>ch.qos.logback</groupId>
@@ -147,12 +147,12 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-assembly-plugin</artifactId>
-                    <version>3.2.0</version>
+                    <version>3.3.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-shade-plugin</artifactId>
-                    <version>3.2.2</version>
+                    <version>3.2.4</version>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -188,12 +188,4 @@
             <url>http://maven.aliyun.com/nexus/content/groups/public</url>
         </repository>
     </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>dicp.repo</id>
-            <name>Dicp dicp repository</name>
-            <url>http://192.168.1.48:8081/repository/maven-releases/</url>
-        </repository>
-    </distributionManagement>
 </project>
