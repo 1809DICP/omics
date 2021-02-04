@@ -6,7 +6,7 @@
 
     <groupId>omics</groupId>
     <artifactId>omics</artifactId>
-    <version>1.11.0</version>
+    <version>1.12.0</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -189,8 +189,8 @@
     <repositories>
         <repository>
             <id>aliyun</id>
-            <name>aliyun</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+            <name>aliyun-central</name>
+            <url>https://maven.aliyun.com/repository/central</url>
         </repository>
     </repositories>
 </project>
