@@ -6,7 +6,7 @@
 
     <groupId>omics</groupId>
     <artifactId>omics</artifactId>
-    <version>1.12.0</version>
+    <version>1.12.1</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -77,11 +77,6 @@
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
                 <version>3.5.15</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-codec</groupId>
-                <artifactId>commons-codec</artifactId>
-                <version>1.15</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.poi</groupId>
