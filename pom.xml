@@ -6,7 +6,7 @@
 
     <groupId>omics</groupId>
     <artifactId>omics</artifactId>
-    <version>1.12.1</version>
+    <version>1.12.2</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -81,7 +81,7 @@
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
-                <version>5.0.0</version>
+                <version>4.1.2</version>
             </dependency>
             <dependency>
                 <groupId>org.controlsfx</groupId>
