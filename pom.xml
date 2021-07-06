@@ -6,7 +6,7 @@
 
     <groupId>omics</groupId>
     <artifactId>omics</artifactId>
-    <version>1.12.5</version>
+    <version>2.0.0</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -105,7 +105,7 @@
             <dependency>
                 <groupId>org.xerial</groupId>
                 <artifactId>sqlite-jdbc</artifactId>
-                <version>3.34.0</version>
+                <version>3.36.0.1</version>
             </dependency>
             <dependency>
                 <groupId>org.jgrapht</groupId>
